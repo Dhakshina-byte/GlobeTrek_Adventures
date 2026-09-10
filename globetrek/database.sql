@@ -76,7 +76,7 @@ CREATE TABLE queries (
 
 -- ---------- Default administrator account ----------
 -- Email:    admin@globetrek.com
--- Password: Admin@123   (please change after first login)
+-- Password: Admin@123 
 INSERT INTO users (name, email, password, phone, role) VALUES
 ('System Admin', 'admin@globetrek.com',
  '$2y$10$7crkK6HEiYvBxxZ.P9CpE.gl6c9o8loB70aRDkXpclwTVq3hf2p0q',
