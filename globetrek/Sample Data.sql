@@ -56,7 +56,7 @@ INSERT INTO bookings
 (5, 7, 5, '2026-10-18', 3, NULL,                              1020.00, 'confirmed', 'paid'),
 (6, 8, 1, '2027-03-01', 2, NULL,                              1380.00, 'cancelled', 'unpaid');
 
--- ---------- Payments (for the paid bookings above) ----------INSERT INTO payments (payment_id, booking_id, amount, method, card_holder, card_last4) VALUES
+
 (1, 1, 1380.00, 'card', 'Jane Doe',        '4242'),
 (2, 3, 2080.00, 'card', 'Michael Smith',   '1881'),
 (3, 5, 1020.00, 'card', 'Liam O''Connor',  '0005');
